@@ -107,6 +107,6 @@ ashita.register_event("prerender", function()
     --[[
         Downside to this is it is called pretty constantly.
         It IS possible to get the objects in the clients memory as it sees them, and rename them on the spot.
-        However we currently have no method to do that via ashita"s lua scripts.
+        However we currently have no method to do that via ashita's lua scripts.
     ]]
 end);
